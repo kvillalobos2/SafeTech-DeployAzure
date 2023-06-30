@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'safetechnology'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E2CFCB83AD045189AE14266FA478B83 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_795473086B9E47CD99712D4426E15352 }}
           package: '*.jar'
