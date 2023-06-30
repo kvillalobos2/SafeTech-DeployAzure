@@ -48,7 +48,7 @@ public class TechnicalServiceImpl implements TechnicalService {
                         .withPassword(request.getPassword())
                         .withAddress(request.getAddress())
                         .withPhone(request.getPhone())
-                        .withBirthday(request.getBirthday())
+
                         .withAboutMe(request.getAboutMe())))
                 .orElseThrow(() -> new ResourceNotFoundException(ENTITY, technicalId));
     }

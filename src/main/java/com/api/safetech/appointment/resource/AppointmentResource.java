@@ -21,7 +21,7 @@ import java.util.Date;
 public class AppointmentResource {
     private Long id;
     private String problemDescription;
-    private Date scheduledAt;
+
     private String address;
     private Status status;
     private UserResource user;

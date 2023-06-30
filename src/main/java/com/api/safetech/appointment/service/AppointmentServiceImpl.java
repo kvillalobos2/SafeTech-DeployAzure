@@ -69,7 +69,7 @@ public class AppointmentServiceImpl implements AppointmentService {
         return appointmentRepository.findById(appointmentId)
                 .map(appointment -> appointmentRepository.save(
                         appointment.withProblemDescription(request.getProblemDescription())
-                                .withScheduledAt(request.getScheduledAt())
+
                                 .withAddress(request.getAddress())
                                 .withStatus(request.getStatus())
                 )).orElseThrow(()-> new ResourceNotFoundException(ENTITY, appointmentId));

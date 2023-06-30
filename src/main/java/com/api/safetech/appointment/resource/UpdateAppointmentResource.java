@@ -17,8 +17,6 @@ public class UpdateAppointmentResource {
     @NotBlank
     private String problemDescription;
 
-    @NotNull
-    private Date scheduledAt;
 
     @NotNull
     @NotBlank

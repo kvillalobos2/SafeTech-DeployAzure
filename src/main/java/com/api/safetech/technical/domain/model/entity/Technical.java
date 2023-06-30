@@ -64,8 +64,7 @@ public class Technical extends AuditModel {
     @Size(max = 9)
     private String phone;
 
-    @NotNull
-    private Date birthday;
+
 
     @NotNull
     @NotBlank
@@ -78,7 +77,7 @@ public class Technical extends AuditModel {
     @OneToMany(mappedBy = "technical")
     private List<ApplianceTechnical> applianceTechnicals;
 
-    public Technical(Long id, String firstName, String lastName, String dni, String email, String password, String address, String phone, Date birthday, String aboutMe) {
+    public Technical(Long id, String firstName, String lastName, String dni, String email, String password, String address, String phone, String aboutMe) {
 
         this.id = id;
         this.firstName = firstName;
@@ -88,7 +87,7 @@ public class Technical extends AuditModel {
         this.password = password;
         this.address = address;
         this.phone = phone;
-        this.birthday = birthday;
+
         this.aboutMe = aboutMe;
     }
 

@@ -18,6 +18,5 @@ public class TechnicalResource {
     private String password;
     private String address;
     private String phone;
-    private Date birthday;
     private String aboutMe;
 }

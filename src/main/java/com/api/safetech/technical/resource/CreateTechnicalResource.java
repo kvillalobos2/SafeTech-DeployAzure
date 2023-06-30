@@ -52,8 +52,7 @@ public class CreateTechnicalResource {
     @Size(max = 9)
     private String phone;
 
-    @NotNull
-    private Date birthday;
+
 
     @NotNull
     @NotBlank

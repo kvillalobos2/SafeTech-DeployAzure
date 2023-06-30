@@ -73,7 +73,7 @@ public class UserServiceImpl implements UserService {
                                             .withPassword(request.getPassword())
                                             .withAddress(request.getAddress())
                                             .withPhone(request.getPhone())
-                                            .withBirthday(request.getBirthday())
+
                             )).orElseThrow(()-> new ResourceNotFoundException(ENTITY, userId));
         }
         catch (Exception e){

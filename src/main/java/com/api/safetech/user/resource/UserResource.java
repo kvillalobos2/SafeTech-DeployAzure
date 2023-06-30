@@ -19,5 +19,5 @@ public class UserResource {
     private String password;
     private String address;
     private String phone;
-    private Date birthday;
+
 }
